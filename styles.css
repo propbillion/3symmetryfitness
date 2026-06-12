@@ -163,6 +163,11 @@ h1,h2,h3,h4{font-weight:600;line-height:1.07;letter-spacing:-.035em}
 .hero__trust strong{display:block;font-size:1.35rem;color:var(--ink);font-weight:700}
 .hero__media{position:relative}
 .hero__video{width:100%;aspect-ratio:6/7;min-height:420px;object-fit:cover;border-radius:var(--r);display:block;background:var(--surface)}
+.hero__lockup{margin-bottom:20px;line-height:1.05}
+.hero__lockup-1{display:block;font-size:clamp(1.7rem,3vw,2.4rem);font-weight:800;letter-spacing:-.01em;text-transform:uppercase;color:var(--ink)}
+.hero__lockup-1 span{font-weight:600}
+.hero__lockup-2{display:inline-flex;align-items:center;gap:9px;margin-top:9px;font-size:.78rem;font-weight:700;letter-spacing:.26em;text-transform:uppercase;color:var(--ink)}
+.hero__lockup-2 i{width:26px;height:3px;background:var(--blue);display:inline-block;border-radius:2px}
 .hero__badge{position:absolute;left:-14px;bottom:26px;background:#fff;border:1px solid var(--line);
   border-radius:var(--r);padding:16px 22px;box-shadow:var(--shadow-lg);text-align:center}
 .hero__badge-num{font-size:2rem;font-weight:700;color:var(--ink)}
